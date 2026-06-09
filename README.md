@@ -1,4 +1,4 @@
-# Monterey WooCommerce Variant Image Exporter
+# WooCommerce Variant Image Exporter
 
 A small, near-zero-dependency Node.js CLI that walks every **variable product** in a
 WooCommerce store via the REST API (v3) and exports the **variation-level image URLs**
@@ -21,7 +21,7 @@ parent_sku, wp_product_id, wp_variation_id
 
 1. WP Admin → **WooCommerce → Settings → Advanced → REST API**
 2. **Add key**
-3. Description: `Monterey migration export`, User: your admin user, Permissions: **Read**
+3. Description: `Variant images export`, User: your admin user, Permissions: **Read**
 4. **Generate API key**
 5. Copy **both** the Consumer key (`ck_…`) and Consumer secret (`cs_…`).
    ⚠️ The secret is shown **only once**.

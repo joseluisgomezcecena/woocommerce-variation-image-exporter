@@ -18,7 +18,7 @@
  * How to get the credentials:
  *   1. WP Admin -> WooCommerce -> Settings -> Advanced -> REST API
  *   2. "Add key"
- *   3. Description: "Monterey migration export"
+ *   3. Description: "Variant images export"
  *      User: your admin user
  *      Permissions: "Read"
  *   4. "Generate API key"
@@ -58,7 +58,7 @@ const INCLUDE_PARENT_GALLERY = process.env.INCLUDE_PARENT_GALLERY === '1';
 
 if (!SITE_URL || !CONSUMER_KEY || !CONSUMER_SECRET) {
   console.error('\n[ERROR] Missing required env vars:');
-  console.error('  WP_SITE_URL       (e.g. https://montereycompany.com)');
+  console.error('  WP_SITE_URL       (e.g. https://yourstore.com)');
   console.error('  WC_CONSUMER_KEY   (starts with ck_)');
   console.error('  WC_CONSUMER_SECRET (starts with cs_)');
   console.error('\nSee .env.example or set them inline:');
