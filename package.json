@@ -1,0 +1,16 @@
+{
+  "name": "monterey-wc-image-export",
+  "version": "1.0.0",
+  "description": "Export WooCommerce variation images mapping for migration to Shopify.",
+  "main": "extract-variant-images.js",
+  "scripts": {
+    "start": "node extract-variant-images.js",
+    "verbose": "VERBOSE=1 node extract-variant-images.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
