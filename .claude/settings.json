@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git -C \"c:\\\\xampp\\\\htdocs\\\\monterey-image-exporter\" ls-files)",
-      "Bash(git check-ignore *)"
-    ]
-  }
-}
